@@ -1,5 +1,5 @@
 {
-  "name": "@sooluh/kodepos",
+  "name": "@azulkipli/kodepos",
   "version": "3.0.0",
   "description": "Indonesian postal code search API by place name, village or city",
   "main": "dist/app.js",
@@ -10,9 +10,6 @@
     "postinstall": "yarn build",
     "format": "prettier --write .",
     "commit": "git-cz"
-  },
-  "engines": {
-    "node": ">=16.16.0 <19"
   },
   "keywords": [
     "carikodepos",
@@ -47,18 +44,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sooluh/kodepos.git"
+    "url": "git+https://github.com/azulkipli/postal.git"
   },
   "author": {
-    "name": "Abu Masyail",
-    "email": "suluhs@aol.com",
-    "url": "https://suluh.my.id"
+    "name": "azulkipli"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sooluh/kodepos/issues"
+    "url": "https://github.com/azulkipli/postal/issues"
   },
-  "homepage": "https://github.com/sooluh/kodepos",
+  "homepage": "https://github.com/azulkipli/postal",
   "dependencies": {
     "@fastify/compress": "^6.4.0",
     "@fastify/cors": "^8.3.0",
