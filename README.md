@@ -61,7 +61,7 @@ Base URL : [`http://localhost:3000`](https://flik-postal.vercel.app)
 #### Request
 
 <pre>
-curl -XGET '<a href="https://flik-postal.app/?q=bojong">http://localhost:3000/search/?q=bojong</a>'
+curl -XGET '<a href="https://flik-postal.app/?q=bojongsoang">http://localhost:3000/search/?q=bojongsoang</a>'
 </pre>
 
 #### Response
@@ -72,32 +72,70 @@ curl -XGET '<a href="https://flik-postal.app/?q=bojong">http://localhost:3000/se
   "code": "OK",
   "data": [
     {
-      "province": "Jawa Tengah",
-      "regency": "Purbalingga",
-      "district": "Karangjambu",
-      "village": "Danasari",
-      "code": "53357"
-    },
-    {
-      "province": "Jawa Tengah",
-      "regency": "Tegal",
-      "district": "Bojong",
-      "village": "Danasari",
-      "code": "52465"
-    },
-    {
-      "province": "Jawa Tengah",
-      "regency": "Pemalang",
-      "district": "Pemalang",
-      "village": "Danasari",
-      "code": "52314"
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Bojongsoang",
+      "village": "Bojongsoang",
+      "postalcode": "40288",
+      "code": "40288"
     },
     {
       "province": "Jawa Barat",
-      "regency": "Ciamis",
-      "district": "Cisaga",
-      "village": "Danasari",
-      "code": "46386"
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Tegalluar",
+      "village": "Tegalluar",
+      "postalcode": "40287",
+      "code": "40287"
+    },
+    {
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Bojongsari",
+      "village": "Bojongsari",
+      "postalcode": "40288",
+      "code": "40288"
+    },
+    {
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Lengkong",
+      "village": "Lengkong",
+      "postalcode": "40287",
+      "code": "40287"
+    },
+    {
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Cipagalo",
+      "village": "Cipagalo",
+      "postalcode": "40287",
+      "code": "40287"
+    },
+    {
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "regency": "Bandung",
+      "subdistrict": "Bojongsoang",
+      "district": "Bojongsoang",
+      "urban": "Buahbatu",
+      "village": "Buahbatu",
+      "postalcode": "40287",
+      "code": "40287"
     }
   ]
 }
